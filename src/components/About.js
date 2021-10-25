@@ -7,19 +7,16 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Ari.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            <br className="hidden lg:inline-block" /> <br/>Seattle based Software Engineer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            With a background in music and forever a geek at heart, my love for the evolution of technology is the driving force in my daily life. Solving problems while also sharing knowledge is extremely fulfilling, especially when discovering a breakthrough in accessibility. I strive for bridging the gap between complex tech and the average user. Intuitive design first, always.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              Contact Me
             </a>
             <a
               href="#projects"
@@ -30,7 +27,7 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-full h-300 w-300 flex items-center justify-center..."
             alt="hero"
             src="./ari.jpeg"
           />
