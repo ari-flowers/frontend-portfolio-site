@@ -27,7 +27,7 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded-full h-300 w-300 flex items-center justify-center..."
+            className="object-cover object-center rounded-full h-200 w-200 flex items-center justify-center..."
             alt="hero"
             src="./ari.jpeg"
           />
