@@ -51,9 +51,10 @@ export default function Contact() {
 
       </div>
       <div className="container px-5 mx-auto ">
-        <form
-          netlify
+        <form 
           name="contact"
+          method="POST"
+          data-netlify="true"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0">
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-lg text-gray-400">
@@ -92,7 +93,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            Send
           </button>
         </form>
       </div>
