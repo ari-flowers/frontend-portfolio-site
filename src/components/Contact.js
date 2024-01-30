@@ -56,6 +56,7 @@ export default function Contact() {
           method="POST"
           data-netlify="true"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0">
+          <input type="hidden" name="redirect" value="/" />
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-lg text-gray-400">
               Name
