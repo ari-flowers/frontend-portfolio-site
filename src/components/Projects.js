@@ -12,13 +12,15 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            These are the current projects available on my GitHub. 
+            Highlights from my GitHub.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
