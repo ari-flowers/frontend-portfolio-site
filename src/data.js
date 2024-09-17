@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Vivarium Controller",
+    subtitle: "React, Ruby on Rails, SQL, Arduino",
+    description: "",
+    image: "./vivarium-controller.png",
+    link: "https://github.com/ari-flowers/Vivarium-Climate-Control-System"
+  },
+  {
     title: "Pokegotchi",
     subtitle: "HTML, CSS, JavaScript",
     description:
@@ -42,6 +49,8 @@ export const skills = [
   "Node.js",
   "Express",
   "SQL",
+  "Postgres",
   "GitHub",
-  "Arduino"
+  "Arduino",
+  "Power Shell"
 ];

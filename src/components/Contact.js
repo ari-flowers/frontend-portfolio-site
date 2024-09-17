@@ -35,7 +35,7 @@ export default function Contact() {
         </h2>
       
         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">
-          Have questions, freelance inquiries, or simply want to connect? Send me an email at ari.flowers.media@gmail.com or fill out the form below! I also encourage you to reach out on LinkedIn where you can find all of my latest activites.
+          Have questions, freelance inquiries, or simply want to connect? Send me an email at ari.flowers.media@gmail.com or fill out the form below! I also encourage you to reach out on LinkedIn.
         </p>
         <div className="flex justify-center items-center">
           <a href="https://github.com/ari-flowers" target="_blank" rel="noopener noreferrer">
